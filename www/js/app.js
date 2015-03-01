@@ -84,7 +84,7 @@ $(document).ready(function(){
 					});
 
 					if(window.localStorage){
-						window.localStorage.setItem("taskList" , JSON.stringfy(taskList));
+						window.localStorage.setItem("taskList" , JSON.stringify(taskList));
 					}
 
 					return true;
